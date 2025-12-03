@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WellCare Diagnostics Website
 
 ## 📁 Project Structure
@@ -195,3 +196,6 @@ For questions or issues, refer to the documentation or contact the development t
 **Version**: 1.0.0  
 **Last Updated**: December 2024  
 **Status**: In Development
+=======
+# wellcare-diagnostics
+>>>>>>> 3b63f4a55b0feed9d49d851b4ba476b62d0c45a3
