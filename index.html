@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WellCare Diagnostics - Advanced laboratory testing services with patient-focused care">
+    <title>WellCare Diagnostics | Home</title>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Header Bar -->
+    <header class="top-header">
+        <div class="container">
+            <div class="header-left">
+                <a href="tel:1-800-555-0199" class="header-link">
+                    <i class="fas fa-phone"></i>
+                    <span>1-800-555-0199</span>
+                </a>
+                <a href="mailto:info@wellcarediagnostics.com" class="header-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>info@wellcarediagnostics.com</span>
+                </a>
+            </div>
+            <div class="header-right">
+                <a href="#" class="header-link">
+                    <i class="fas fa-clock"></i>
+                    <span>Mon-Fri: 7AM - 7PM</span>
+                </a>
+                <div class="language-selector">
+                    <i class="fas fa-globe"></i>
+                    <select id="language">
+                        <option value="en">English</option>
+                        <option value="es">Español</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav" id="mainNav">
+        <div class="container nav-container">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html">
+                    <div class="logo-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-main">WellCare</span>
+                        <span class="logo-sub">DIAGNOSTICS</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Navigation Menu -->
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">Home</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">
+                        For Patients <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="patient-portal.html" class="dropdown-item">
+                            <i class="fas fa-user"></i>
+                            Patient Portal
+                        </a>
+                        <a href="find-location.html" class="dropdown-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Find a Location
+                        </a>
+                        <a href="test-menu.html" class="dropdown-item">
+                            <i class="fas fa-flask"></i>
+                            Test Menu
+                        </a>
+                        <a href="results.html" class="dropdown-item">
+                            <i class="fas fa-file-medical"></i>
+                            Get Results
+                        </a>
+                        <a href="billing.html" class="dropdown-item">
+                            <i class="fas fa-credit-card"></i>
+                            Pay Bill
+                        </a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">
+                        For Providers <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="provider-portal.html" class="dropdown-item">
+                            <i class="fas fa-user-md"></i>
+                            Provider Portal
+                        </a>
+                        <a href="test-directory.html" class="dropdown-item">
+                            <i class="fas fa-book-medical"></i>
+                            Test Directory
+                        </a>
+                        <a href="order-tests.html" class="dropdown-item">
+                            <i class="fas fa-clipboard-list"></i>
+                            Order Tests
+                        </a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">
+                        Services <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="services.html" class="dropdown-item">
+                            <i class="fas fa-microscope"></i>
+                            All Services
+                        </a>
+                        <a href="specialty-testing.html" class="dropdown-item">
+                            <i class="fas fa-vial"></i>
+                            Specialty Testing
+                        </a>
+                        <a href="wellness.html" class="dropdown-item">
+                            <i class="fas fa-heartbeat"></i>
+                            Wellness Programs
+                        </a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a href="insurance.html" class="nav-link">Insurance</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <!-- Right Side Actions -->
+            <div class="nav-actions">
+                <button class="search-btn" id="searchBtn">
+                    <i class="fas fa-search"></i>
+                </button>
+                <a href="login.html" class="btn-login">
+                    <i class="fas fa-sign-in-alt"></i>
+                    Login
+                </a>
+                <a href="book-appointment.html" class="btn-appointment">
+                    <i class="fas fa-calendar-check"></i>
+                    Book Appointment
+                </a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Search Overlay -->
+        <div class="search-overlay" id="searchOverlay">
+            <div class="search-container">
+                <input type="text" placeholder="Search for tests, services, locations..." class="search-input">
+                <button class="search-submit">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button class="search-close" id="searchClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Advanced Laboratory Testing
+                    <span class="highlight">You Can Trust</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Providing accurate, timely diagnostic services with compassionate care for over 25 years
+                </p>
+                <div class="hero-buttons">
+                    <a href="book-appointment.html" class="btn btn-primary">
+                        <i class="fas fa-calendar-check"></i>
+                        Schedule Test
+                    </a>
+                    <a href="find-location.html" class="btn btn-secondary">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Find Location
+                    </a>
+                    <a href="results.html" class="btn btn-outline">
+                        <i class="fas fa-file-medical"></i>
+                        View Results
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Quick Access Cards -->
+        <div class="quick-access">
+            <div class="container">
+                <div class="quick-cards">
+                    <div class="quick-card">
+                        <i class="fas fa-user-circle"></i>
+                        <h3>Patient Portal</h3>
+                        <p>Access your results securely</p>
+                        <a href="patient-portal.html" class="card-link">Login <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="quick-card">
+                        <i class="fas fa-flask"></i>
+                        <h3>Test Menu</h3>
+                        <p>Browse our test catalog</p>
+                        <a href="test-menu.html" class="card-link">Explore <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="quick-card">
+                        <i class="fas fa-credit-card"></i>
+                        <h3>Pay Bill</h3>
+                        <p>Manage your payments</p>
+                        <a href="billing.html" class="card-link">Pay Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="quick-card">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3>Contact Us</h3>
+                        <p>We're here to help 24/7</p>
+                        <a href="contact.html" class="card-link">Get Help <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Why Choose Us</span>
+                <h2 class="section-title">Excellence in Diagnostic Services</h2>
+                <p class="section-description">
+                    We combine cutting-edge technology with compassionate care to deliver accurate results you can trust
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Fast Results</h3>
+                    <p>Get your test results quickly with our advanced processing systems and efficient workflows</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Accurate & Reliable</h3>
+                    <p>CLIA-certified lab with rigorous quality control measures ensuring precise diagnostics</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Expert Team</h3>
+                    <p>Board-certified pathologists and experienced technicians dedicated to your health</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Convenient Locations</h3>
+                    <p>Over 50 patient service centers nationwide for easy access to testing services</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Secure & Private</h3>
+                    <p>HIPAA-compliant systems protecting your health information with the highest security</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock customer service to assist with appointments, results, and billing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Years of Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5M+</div>
+                    <div class="stat-label">Tests Performed Annually</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Service Locations</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Patient Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">WellCare</span>
+                            <span class="logo-sub">DIAGNOSTICS</span>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        Leading provider of diagnostic laboratory services committed to improving health outcomes through accurate, timely testing.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>For Patients</h4>
+                    <ul>
+                        <li><a href="patient-portal.html">Patient Portal</a></li>
+                        <li><a href="find-location.html">Find a Location</a></li>
+                        <li><a href="results.html">Get Test Results</a></li>
+                        <li><a href="billing.html">Pay Bill</a></li>
+                        <li><a href="insurance.html">Insurance Information</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="test-menu.html">Test Menu</a></li>
+                        <li><a href="specialty-testing.html">Specialty Testing</a></li>
+                        <li><a href="wellness.html">Wellness Programs</a></li>
+                        <li><a href="services.html">All Services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:1-800-555-0199">1-800-555-0199</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@wellcarediagnostics.com">info@wellcarediagnostics.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Healthcare Blvd, Medical City, MC 12345</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 WellCare Diagnostics. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="accessibility.html">Accessibility</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript Files -->
+    <script src="js/navigation.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
